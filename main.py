@@ -6,5 +6,6 @@ app.config['DEBUG'] = True
 @app.route("/")
 def index():
   return "Hello World"
+  return "test"
 
 app.run()
